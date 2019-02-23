@@ -1,4 +1,4 @@
-# answer-me-quiz
+# AnswerMe Quiz
 ## Simple Quiz Game - Android
 
 AnswerMe is a Quiz game which uses the Open Trivia Database API to source questions and answers. 
