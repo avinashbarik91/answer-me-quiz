@@ -42,7 +42,6 @@ public class GameOver extends AppCompatActivity {
         {
             mainText.setText("Incorrect Answer! Game Over.");
             scoreText.setText("You Scored\n"+aPlayer.getLastScore()+"\n points");
-            //bck.setImageDrawable(getResources().getDrawable(R.drawable.bcklose));
         }
     }
 

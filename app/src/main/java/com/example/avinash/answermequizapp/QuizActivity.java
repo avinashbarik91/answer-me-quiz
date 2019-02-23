@@ -336,7 +336,6 @@ public class QuizActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        //super.onBackPressed();
         Toast.makeText(QuizActivity.this, "Action not allowed", Toast.LENGTH_SHORT).show();
     }
 }
