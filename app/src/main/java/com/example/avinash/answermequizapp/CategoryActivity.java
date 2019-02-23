@@ -27,6 +27,10 @@ import org.jsoup.Jsoup;
 
 import java.util.ArrayList;
 
+/**
+ * Updated by Avinash Barik on 23/02/2019.
+ */
+
 public class CategoryActivity extends AppCompatActivity {
     private static final int MAX_QUESTIONS = 10;
     ListView listview;
@@ -135,8 +139,6 @@ public class CategoryActivity extends AppCompatActivity {
             }
         });
 
-       /* RetryPolicy policy = new DefaultRetryPolicy(10000, 0, 0);
-        jsonObjReq.setRetryPolicy(policy);*/
         rq.add(jsonObjReq);
 
         progressDialog = new ProgressDialog(CategoryActivity.this);
