@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avinash.answermequizapp.LandingActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="427dp"
+        android:layout_height="664dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <ImageView
+        android:id="@+id/gameLogo"
+        android:layout_width="281dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quizicon" />
+
+    <ImageView
+        android:id="@+id/userIcon"
+        android:layout_width="77dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameLogo"
+        app:srcCompat="@drawable/usericon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Player Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIcon" />
+
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_width="279dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Player 1"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/highScoresButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="showHighscores"
+        android:text="High Scores"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startButton" />
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onStartClicked"
+        android:text="Start"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerName"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="301dp" />
+</android.support.constraint.ConstraintLayout>
