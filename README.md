@@ -1,5 +1,4 @@
 # AnswerMe Quiz
-## Simple Quiz Game - Android
 
 AnswerMe is a Quiz game which uses the Open Trivia Database API to source questions and answers. 
 The Open Trivia Database provides a completely free JSON API for use in programming projects. 
@@ -14,3 +13,11 @@ The design follows an MVC architecture as the controller logic is totally separa
 The model layer is again in segregated in different directories.
 
 The main game logic follows randomization and both the questions and the answers are randomized.
+
+## Installation
+Download the souce code and open it using Android Studio to make updates. Ideal for students who want to dissect a project and uderstand basics of Android.
+
+Can generate an APK and install on Android device to see it live and running.
+
+## License
+MIT @ Avinash Barik
